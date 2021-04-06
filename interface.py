@@ -3,7 +3,7 @@
 
 #importación de los paquetes
 from tkinter import *
-from clases_interfaz import MenuPrincipal
+from clase_Menu import MenuPrincipal
 
 
 # creación de la raíz y ventana principal 
@@ -17,7 +17,6 @@ raiz.resizable(1,1)
 
 
 objMenuPrincipal = MenuPrincipal(raiz)
-
 raiz.mainloop()
 
 
