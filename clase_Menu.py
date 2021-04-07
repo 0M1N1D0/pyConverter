@@ -34,6 +34,9 @@ class MenuPrincipal:
         self.conversiones_menu.add_command(label="Velocidad")
         self.conversiones_menu.add_command(label="Tiempo")
         self.conversiones_menu.add_command(label="Potencia")
+        self.conversiones_menu.add_command(label="Datos")
+        self.conversiones_menu.add_command(label="Presión")
+        self.conversiones_menu.add_command(label="Ángulo")
         self.conversiones_menu.add_command(label="Moneda")
         # menu principal
         self.ayuda_menu = Menu(self.menubar, tearoff=0)

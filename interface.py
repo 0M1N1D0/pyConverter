@@ -9,8 +9,8 @@ from clase_Menu import MenuPrincipal
 # creación de la raíz y ventana principal 
 raiz = Tk()
 raiz.title('pyConverter')
-raiz.geometry("300x300")
-raiz.resizable(1,1)
+raiz.geometry("300x0")
+raiz.resizable(0,0)
 
 
 
