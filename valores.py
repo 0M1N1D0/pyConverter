@@ -31,7 +31,7 @@ class Longitud:
         1 nanometros ---- 0.0000001 milimetros
         12 nanometros ---- x       
         """
-        resul = self.valor * 0.0000001
+        resul = self.valor * 0.0000000000013571
         resul = np.format_float_positional(resul, trim='-')
         return resul
 
@@ -45,6 +45,6 @@ class Longitud:
 
 # print(ob.de_nanometro_a_micrones())
 
-ob = Longitud("a","b",1) 
+ob = Longitud("a","b",135) 
 # print('{:.20f}'.format(ob.de_nanometros_a_centimetros())) esta forma sólo le da el formato con la presición especificada 
 print(ob.de_nanometros_a_centimetros())
